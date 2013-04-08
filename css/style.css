@@ -1,0 +1,499 @@
+/* --------------- RESET --------------- */
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+html, body, div, dl, dt, dd, pre, form, fieldset, input, textarea, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h1, h2, h3, h4, h5, h6, p, p1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+fieldset, img {
+  border: 0;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+q:before, q:after {
+  content: '';
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+abbr, acronym {
+  border: 0;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+img#rof_img[scr=""], img#ellison[src=""], img#pagebanner[src=""], img[src=""] {
+  display: none;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 2, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.clear {
+  clear: both;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova-Light';
+  src: url("../fonts/proximanova-light.eot");
+  src: url("../fonts/proximanova-light.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova-light.woff") format("woff"), url("../fonts/proximanova-light.ttf") format("truetype"), url("../fonts/proximanova-light.svg#proxima_nova_ltregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Scala';
+  src: url("../fonts/ffscalasf-webfont.eot");
+  src: url("../fonts/ffscalasf-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ffscalasf-webfont.woff") format("woff"), url("../fonts/ffscalasf-webfont.ttf") format("truetype"), url("../fonts/ffscalasf-webfont.svg#ffscalaregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {font-family: 'ScalaBld';src: url('../fonts/ffscalasfbd-webfont.eot');src: url('../fonts/ffscalasfbd-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/ffscalasfbd-webfont.woff') format('woff'),url('../fonts/ffscalasfbd-webfont.ttf') format('truetype'),url('../fonts/ffscalasfbd-webfont.svg#ffscala-boldregular') format('svg');font-weight: normal;font-style: normal;} */
+/* VARIABLES */
+/* TYPE */
+/* line 20, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h1 {
+  font-family: 'Scala';
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: .05em;
+  opacity: 0.9;
+  text-transform: uppercase;
+  display: inline;
+}
+/* line 27, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h1 a {
+  text-decoration: none;
+  color: #555555;
+  padding: 0 0 0 2%;
+}
+/* line 31, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h1 a:hover {
+  color: #cccccc;
+  opacity: 1;
+  transition: .5s;
+  -moz-transition: .5s;
+  /* Firefox 4 */
+  -webkit-transition: .5s;
+  /* Safari and Chrome */
+  -o-transition: .5s;
+  /* Opera */
+}
+@media screen and (max-width: 700px) {
+  /* line 20, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  h1 {
+    font-size: 2.125em;
+    text-align: center;
+    opacity: .6;
+    margin-left: 2.25%;
+  }
+}
+
+/* line 48, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h2 {
+  font-family: 'Scala';
+  font-size: 1em;
+  color: #555555;
+  font-weight: 100;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  margin: 1% 0%;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  /* line 48, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  h2 {
+    font-size: 2.5em !important;
+    text-align: center;
+    letter-spacing: .05em;
+  }
+}
+
+/* line 63, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h3 {
+  font-family: 'Scala';
+  font-size: 2.25em;
+  color: #555555;
+  font-weight: 100;
+  letter-spacing: .125em;
+  text-transform: uppercase;
+  margin: 1% 0%;
+}
+@media screen and (max-width: 600px) {
+  /* line 63, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  h3 {
+    font-size: 3em;
+    text-align: center;
+    max-width: 600px;
+  }
+}
+
+/* line 77, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h4 {
+  font-family: 'Scala';
+  color: #333;
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+/* line 86, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+h5 {
+  font-family: 'Scala';
+  font-size: 3em;
+  color: #cccccc;
+  font-weight: 100;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  margin: 1% 0%;
+}
+@media screen and (max-width: 600px) {
+  /* line 86, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  h5 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: .05em;
+  }
+}
+
+/* line 101, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+p {
+  font-family: 'Scala';
+  color: #cccccc;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: .125em;
+}
+@media screen and (max-width: 700px) {
+  /* line 101, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  p {
+    font-size: 1.125em;
+    line-height: 200%;
+  }
+}
+
+/* line 112, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+a {
+  color: #527063;
+  text-decoration: none;
+}
+/* line 114, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+a:hover {
+  transition: .5s;
+  -moz-transition: .5s;
+  /* Firefox 4 */
+  -webkit-transition: .5s;
+  /* Safari and Chrome */
+  -o-transition: .5s;
+  /* Opera */
+}
+
+/* ALL PAGES */
+/* line 123, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 124, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+*::selection {
+  background: #408092;
+}
+
+/* line 129, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+html {
+  background: black;
+  height: 100%;
+}
+
+/* line 134, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 139, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.wrap {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+/* line 144, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+nav {
+  width: 105%;
+  margin: -1.5% auto 1% auto;
+}
+@media screen and (max-width: 600px) {
+  /* line 144, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  nav {
+    width: 98%;
+    text-align: center;
+    margin: 2% 1%;
+  }
+}
+
+/* line 154, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+#logo {
+  width: 52%;
+  opacity: 0.9;
+}
+/* line 157, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+#logo:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 700px) {
+  /* line 154, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  #logo {
+    width: 96%;
+    margin: 2%;
+    opacity: .6;
+  }
+}
+
+/* line 167, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 171, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+footer {
+  position: relative;
+  margin-top: -200px;
+  height: 200px;
+  max-height: 200px;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  /* line 171, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  footer {
+    margin-top: -90px;
+    height: 100px;
+    max-height: 100px;
+  }
+}
+
+/* line 184, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.btmsneak {
+  max-height: 200px;
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+}
+
+/* HOME PAGE */
+/* line 192, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.cinemagraph {
+  display: block;
+  margin: 2% auto 0 auto;
+  max-width: 620px;
+  max-height: 80%;
+}
+@media screen and (max-width: 700px) {
+  /* line 192, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .cinemagraph {
+    display: inline-block;
+    margin-top: 0%;
+    max-height: 200%;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/* line 207, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.caption {
+  position: absolute;
+  float: left;
+  bottom: 10px;
+  left: 10px;
+}
+@media screen and (max-width: 800px) {
+  /* line 207, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .caption {
+    float: none;
+    position: relative;
+    display: block;
+    bottom: auto;
+    left: auto;
+    margin: 3% auto;
+    text-align: center;
+  }
+}
+
+/* ABOUT */
+/* line 224, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.abtwrap {
+  padding-bottom: 210px;
+  margin: 1% auto;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+/* line 230, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.abtwrap h2 {
+  margin: 5% 0 1% 0;
+}
+@media screen and (max-width: 600px) {
+  /* line 224, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .abtwrap {
+    padding-bottom: 120px;
+  }
+  /* line 233, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .abtwrap p {
+    text-align: left;
+    line-height: 1em;
+  }
+  /* line 236, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .abtwrap h2 {
+    width: 100%;
+    margin: 10% 0 1% 0;
+    border-top: 1px #555555 solid;
+    padding: 7% 0%;
+    margin-top: 10%;
+  }
+}
+
+/* NEWS */
+/* line 247, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.newswrap {
+  width: 95%;
+  margin: 1% auto;
+  max-width: 1000px;
+}
+
+/* line 253, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.title {
+  width: 100%;
+}
+
+/* line 257, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.storyphoto {
+  float: left;
+  max-width: 22%;
+  margin-left: 4%;
+  max-height: 300px;
+  width: auto;
+}
+@media screen and (max-width: 600px) {
+  /* line 257, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .storyphoto {
+    display: none;
+  }
+}
+
+/* line 268, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.storywrap {
+  width: 72%;
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  /* line 268, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .storywrap {
+    width: 98%;
+    float: none;
+    margin: 1% 3%;
+  }
+}
+
+/* line 278, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.news, .items {
+  padding: 5% 0%;
+  border-bottom: 1px #555555 solid;
+}
+@media screen and (max-width: 600px) {
+  /* line 278, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .news, .items {
+    border-top: 1px #555555 solid;
+    border-bottom: none;
+    padding: 7% 0%;
+    margin-top: 10%;
+  }
+}
+
+/* line 290, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.photowrap {
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  /* line 290, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .photowrap {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 290, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .photowrap {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+}
+
+/* line 302, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.itemphoto {
+  padding: 1% 4%;
+  max-height: 225px;
+  width: auto;
+  max-width: 18%;
+}
+@media screen and (max-width: 800px) {
+  /* line 302, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .itemphoto {
+    width: auto;
+    max-width: 40%;
+    max-height: 250px;
+    padding: 2% 6%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 302, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .itemphoto {
+    width: auto;
+    max-width: 30%;
+    max-height: 200px;
+    padding: 2% 5%;
+  }
+}
+
+/* line 322, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+.iteminfowrap h5, .iteminfowrap p {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  /* line 324, /Users/jeffanoel/Documents/CLIENTWORK/Web/2013_Nak_WebCode/sass/style.scss */
+  .iteminfowrap p {
+    text-align: left;
+  }
+}

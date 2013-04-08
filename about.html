@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel='stylesheet' id='default_styles-css'  href='css/style.css' type='text/css' media='all' />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0," />
+	<script src="js/jquery-1.7.2.js"></script>
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+
+<body>
+	<div class="wrap">
+	
+		<nav id="fittext1">
+			<a href="index.html"><img id="logo" src="img/logo_1920w.png" alt="logo_1920w" width="" height="" /></a>
+			<h1><a href="about.html">about</a></h4>
+			<h1><a href="news.html">news</a></h4>
+		</nav>
+		
+		<div class="abtwrap">			
+			<h2 class="title">Who, What &amp; Why</h2>
+			<p>Aenean varius eros pharetra ipsum eleifend id gravida dolor bibendum. Nam molestie ante eu orci scelerisque ut sollicitudin nibh fringilla. Proin faucibus posuere augue condimentum fringilla.<br /><br />Fusce at tortor gravida diam adipiscing congue. Integer venenatis congue tortor in auctor. Nulla consequat convallis nulla, non suscipit arcu.<br /><br />Aliquam erat volutpat. Nulla facilisi. Morbi molestie commodo lacus nec egestas. Duis metus magna, dictum laoreet cursus eget, mollis at libero. Donec rutrum lorem malesuada dui consectetur pulvinar. Ut facilisis blandit congue.<br /><br />Integer nec nibh dolor, eget mollis est. Fusce blandit tincidunt nunc, vel elementum velit varius vel.</p>
+			<h2 class="title">How to Purchase</h2>
+			<p>Our pieces can be purchased at Barney’s stores and  <a href="#">online.</a></p>
+			<h2 class="title">Contact</h2>
+			<p><a href="#">Send us a note</a> if you have a special request or call 512-135-7924</p>
+		</div><!-- end .abtwrap -->
+	</div><!-- end .wrap -->
+	
+	<footer>
+		<img class="btmsneak" src="" alt="Nak Armstrong Bangles">
+	</footer>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script>
+		$("#fittext1").fitText(1.8);
+		$('.title').fitText(1.5);
+	</script>
+	<script>(function(e){e.randomImage={defaults:{path:"img/",myImages:["sneakbangles.jpg","sneakEar.jpg","sneakNeck.jpg",]}};e.fn.extend({randomImage:function(t){var t=e.extend({},e.randomImage.defaults,t);return this.each(function(){var n=t.myImages,r=n.length,i=Math.floor(Math.random()*r),s=n[i],o=t.path+s;e(this).attr({src:o,alt:s})})}})})(jQuery);</script>
+	<script>
+		$('.btmsneak').randomImage();
+	</script>
+	
+</body>
+
+</html>
